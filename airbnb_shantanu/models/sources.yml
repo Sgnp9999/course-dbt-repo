@@ -1,0 +1,12 @@
+sources:
+  - name: airbnb_shantanu
+    schema: raw
+    tables:
+    - name: listings
+      identifier: raw_listings
+
+    - name: reviews
+      identifier: raw_reviews
+
+    - name: hosts
+      identifier: RAW_HOSTS

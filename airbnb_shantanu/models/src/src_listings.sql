@@ -1,5 +1,3 @@
-{{ config(materialized='view') }}
-
 with raw_listings as (
     select * from AIRBNB_SHANTANU.RAW.RAW_LISTINGS
 )

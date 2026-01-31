@@ -35,3 +35,6 @@ models:
     +materialized: view
     src:
       +materialized: view
+
+data_tests:
+  +store_failures: true
